@@ -1,20 +1,20 @@
-# Install react
+## Install react
   * React Single File:  [react-<version>.js][reactDown]
   * React DOM library: [react-dom-<version>.js][reactDown]
 
-# Instal including JSX
+## Install including JSX
   * Babel library
     * Download Babel
-    * Change <script type="text/javascript"> to <script type="text/babel">
+    * Change "script type="text/javascript"" to "script type="text/babel""
 
-# What is react
+## What is react
   * react is a way to integrate html into your javascript to help create the view
 
-# render
+## render
   * function that must be implemented
   * provides the output that the user sees (the "view")
 
-# Components
+## Components
   * reusable
   * can be nested
   * what you use to break your interface into its most basic parts
@@ -27,7 +27,7 @@
     value = application (in render)
     component's state = application (in render via defaultValue)
 
-# Component Creation
+## Component Creation
   1. getDefaultProps()  //Do not use with ES6
     * prop values returned will be used as DEFAULTS
     * ES6 Alternative:
@@ -59,7 +59,7 @@
     * component mounted and can now access component's DOM nodes
     * used for: preparing times, fetching data, adding event listeners
 
-# Component Modification
+## Component Modification
   * componentWillUnmount()
     * used before a component is unmounted from DOM
     * Good for: removing event listeners
@@ -77,7 +77,7 @@
     * Changes not made in DOM yet
   * componentDidUpdate(prevProps, prevState)
 
-# component states
+## component states
   * Anytime a component's state changes, its 'render' function is called
   * represented as js object on a component level scope
   * it is like private data for your component
@@ -85,7 +85,7 @@
   * setState() : primary way to make UI updates, does shallow merge btwn new and previous state & trigger a re-render of component
 
 
-# props
+## props
   * [Components pass properties to their children components through props][resource]
     * Property ex. Address, Price, etc.
   * <Component title={prop}/>   // is a prop
@@ -105,7 +105,7 @@
       };
       ```
 
-  React.PropTypes.whatTypeItShouldBe = {...} //ES6
+* React.PropTypes.whatTypeItShouldBe = {...} //ES6
 
 
 [reactDown]:https://facebook.github.io/react/docs/installation.html
