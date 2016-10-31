@@ -44,22 +44,22 @@
   * It is not valid Javascript, so it must be compiled (like with a compiler like Babel)
 
 3. What is the difference between the following:
-  1. import React from 'react';
+  * import React from 'react';
     * This is how you access the React library
     * If you want to use JSX inside a module, you must import react
     * Allows you to use 'class' syntax
 
-  2. import { render } from 'react-dom';
-  * this is the entry point to the react-dom library
+  * import { render } from 'react-dom';
+    * this is the entry point to the react-dom library
     * the react-dom library deals with all the DOM stuff we do (it provides DOM specific methods)
     * We need to have a place to render this, so react-dom sends it to the DOM
     * can use import ReactDOM from 'react-dom'
 
-  3. import Component from './components/Component'
+  * import Component from './components/Component'
     * Allows you to import Component directly if you have multiple components in one file
     * Allows you to import components from a different js file to communicate with the current js file
 
-  4. import './style.css'
+  * import './style.css'
     * This will import a stylesheet, so you can use classes and ids to make style changes or apply stlye changes (to objects created with CompositeComponent)
 
 4. What is the shadow DOM?
