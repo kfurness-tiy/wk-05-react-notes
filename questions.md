@@ -43,7 +43,7 @@
     * JSX is faster because it compiles the source code into Javascript
   * It is not valid Javascript, so it must be compiled (like with a compiler like Babel)
 
-3.  What is the difference between the following:
+3. What is the difference between the following:
   1. import React from 'react';
     * This is how you access the React library
     * If you want to use JSX inside a module, you must import react
