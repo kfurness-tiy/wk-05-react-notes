@@ -36,7 +36,8 @@
         </h1>
         );
       ```
-  * Can use inside of if statements and for loops
+  * Can use INSIDE OF if statements and for loops
+    * BUT cannot use if statement in JSX expression
   * if an element does not nest any other elements, you can close it immediately with a "/>", just like image tags
   * Why use it?
     * JSX is faster because it compiles the source code into Javascript
@@ -63,7 +64,7 @@
 
 4. What is the shadow DOM?
   * The shadow DOM allows one to create self-contained and customizable elements that you can import into a project. It allows you to include a subtree of DOM elements into rendering of a document without affecting the the main document DOM tree. This is a way to create "customized" html/css that will not in any way affect the rest of your document
-  * React does not need Shadow Dom since it allows you to create your own components that are customizable and self-contained and can be reused.
+  * React does not need Shadow Dom since it allows you to create your own components that are customizable and self-contained and can be reused. It also uses a virtual DOM which compares the new virtual DOM to a pre-update version, and React figures out exactly which virtual DOM objects have changed. (called diffing) Now react can update those objects and only those objects (only updates necessary parts of DOM)
 
 5. If we want to output multiple paragraphs, what gotcha might we run into?
   * [You can't output miltiple adjacent elements.][multiple elements]
