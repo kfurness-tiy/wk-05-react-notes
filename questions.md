@@ -152,3 +152,5 @@
 (install example 2)[http://stackoverflow.com/documentation/reactjs/6294/how-to-setup-a-basic-webpack-react-and-babel-environment#t=201610302039465462421]
 
 (install example 3)[http://stackoverflow.com/documentation/reactjs/5969/react-boilerplate-react-babel-webpack#t=201610302041483142306]
+
+(difference btwn ES5 & ES^ components)[https://babeljs.io/blog/2015/06/07/react-on-es6-plus]
