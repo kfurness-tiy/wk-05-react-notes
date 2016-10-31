@@ -22,7 +22,7 @@
   * Is adds XML syntax to javascript
     * It is like a mixture of HTML and javascript AND css
   * You can wrap expressions within html by using {}
-    ```js
+  ```js
       function formatName(user) {
         return user.firstName + ' ' + user.lastName;
         }
