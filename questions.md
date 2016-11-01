@@ -35,7 +35,7 @@
           Hello, {formatName(user)}!
         </h1>
         );
-      ```
+  ```
   * Can use INSIDE OF if statements and for loops
     * BUT cannot use if statement in JSX expression
   * if an element does not nest any other elements, you can close it immediately with a "/>", just like image tags
